@@ -1,0 +1,23 @@
+{
+	"name": "ui-web",
+	"version": "0.0.0",
+	"authors": [
+		"Broderick Young <byoung@snaptrends.com>"
+	],
+	"description": "Front end of SnapTrends",
+	"license": "MIT",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"static/js/lib/bowerDependencies/",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"sugar": "~1.4.1",
+		"angular": "~1.3.14",
+		"font-source-sans-pro": "~0.1.0"
+	}
+}

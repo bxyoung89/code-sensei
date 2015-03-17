@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="../bin/css/app/app.css">
+	<script src="../lib/bower-dependencies/angular/angular.min.js"></script>
+	<script src="../lib/bower-dependencies/sugar/release/sugar-full.min.js"></script>
+	<script src="../example/leapYearUtil.js"></script>
+	<script src="../example/tests.js"></script>
+	<script src="app.js"></script>
+	<script src="testPane/testPane.js"></script>
+</head>
+<body ng-app="CodeSensei">
+	<div class="app-wrapper">
+		<div class="app-header">
+			<div class="app-title">Code Sensei</div>
+			<div class="app-subtitle">Teaches you code!</div>
+		</div>
+		<div class="app-body">
+			<ng-include src="'testPane/testPane.html'"></ng-include>
+		</div>
+	</div>
+</body>
+</html>

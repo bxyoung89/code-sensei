@@ -1,0 +1,15 @@
+<div class="test-pane" ng-controller="testPaneController">
+	<div class="test-result" ng-repeat="test in tests" ng-class="{ passed: test.state === 'passed', failed: test.state === 'failed'}">
+		<div class="test-result-header">
+			<div class="test-name">
+				{{ test.name }}
+			</div>
+			<div class="test-state">
+				{{ test.state }}
+			</div>
+		</div>
+		<div class="test-result-explanation ng-hide" ng-show="test.message !== undefined && test.state === 'failed'">
+			{{ test.message }}
+		</div>
+	</div>
+</div>

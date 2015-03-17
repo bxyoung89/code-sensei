@@ -1,0 +1,9 @@
+build:
+- "clean:build"
+- "build-css"
+
+build-css:
+- "sass:all"
+- "autoprefixer:all"
+- "csso:all"
+- "notify"

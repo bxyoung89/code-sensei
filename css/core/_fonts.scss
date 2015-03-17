@@ -1,0 +1,6 @@
+$SourceSansProPath: "../../../lib/bower-dependencies/font-source-sans-pro";
+@import "../../lib/bower-dependencies/font-source-sans-pro/source-sans-pro";
+
+@mixin main-font {
+	font-family: 'Source Sans Pro', Verdana, Helvetica, Arial, sans-serif;
+}
